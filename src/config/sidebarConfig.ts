@@ -44,16 +44,16 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否在文章详情页显示
 			showOnPostPage: true,
 		},
-		{
-			// 组件类型：公告组件
-			type: "announcement",
-			// 是否启用该组件
-			enable: true,
-			// 组件位置
-			position: "top",
-			// 是否在文章详情页显示
-			showOnPostPage: true,
-		},
+		// {
+		// 	// 组件类型：公告组件
+		// 	type: "announcement",
+		// 	// 是否启用该组件
+		// 	enable: true,
+		// 	// 组件位置
+		// 	position: "top",
+		// 	// 是否在文章详情页显示
+		// 	showOnPostPage: true,
+		// },
 		{
 			// 组件类型：音乐播放器
 			type: "music",
@@ -94,10 +94,6 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				collapseThreshold: 10,
 			},
 		},
-	],
-
-	// 右侧边栏组件配置列表
-	rightComponents: [
 		{
 			// 组件类型：最新动态组件
 			type: "dynamic",
@@ -125,6 +121,37 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 是否在文章详情页显示
 			showOnPostPage: false,
 		},
+	],
+
+	// 右侧边栏组件配置列表
+	rightComponents: [
+		// {
+		// 	// 组件类型：最新动态组件
+		// 	type: "dynamic",
+		// 	// 是否启用该组件
+		// 	enable: true,
+		// 	// 组件位置
+		// 	position: "top",
+		// 	// 是否在文章详情页显示
+		// 	showOnPostPage: true,
+		// 	// 组件专属配置
+		// 	specificConfig: {
+		// 		dynamic: {
+		// 			// 显示的最新动态数量
+		// 			limit: 2,
+		// 		},
+		// 	},
+		// },
+		// {
+		// 	// 组件类型：站点统计组件
+		// 	type: "stats",
+		// 	// 是否启用该组件
+		// 	enable: true,
+		// 	// 组件位置
+		// 	position: "top",
+		// 	// 是否在文章详情页显示
+		// 	showOnPostPage: false,
+		// },
 		{
 			// 组件类型：站点信息组件
 			type: "siteInfo",
